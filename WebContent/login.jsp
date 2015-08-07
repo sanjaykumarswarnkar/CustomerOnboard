@@ -19,14 +19,14 @@
 <%
     String userid = request.getParameter("Uname");    
     String pwd = request.getParameter("Password");
-    //Class.forName("com.mysql.jdbc.Driver");
-    //Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/client_db1");
-    String driver = "com.mysql.jdbc.Driver";
+    Class.forName("com.mysql.jdbc.Driver");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/client_db1,"root","\0");
+   /* String driver = "com.mysql.jdbc.Driver";
     String connection = "jdbc:mysql://localhost:3306/client_db1";
     String user = "root";
-    //String password = "root";
+    String password = "root";
     Class.forName(driver);
-    Connection con = DriverManager.getConnection(connection, user);
+    Connection con = DriverManager.getConnection(connection, user);*/
     
     Statement st = con.createStatement();
     ResultSet rs;
