@@ -19,8 +19,15 @@
 <%
     String userid = request.getParameter("Uname");    
     String pwd = request.getParameter("Password");
-    Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/client_db1");
+    //Class.forName("com.mysql.jdbc.Driver");
+    //Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/client_db1");
+    String driver = "com.mysql.jdbc.Driver";
+    String connection = "jdbc:mysql://localhost:3306/client_db1";
+    String user = "root";
+    //String password = "root";
+    Class.forName(driver);
+    Connection con = DriverManager.getConnection(connection, user);
+    
     Statement st = con.createStatement();
     ResultSet rs;
     rs = st.executeQuery("select * from user_details where Uname='" + userid + "' and Password='" + pwd + "'");
