@@ -20,7 +20,7 @@
     String userid = request.getParameter("Uname");    
     String pwd = request.getParameter("Password");
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/client_db1,"root","\0");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/client_db1,"root","x0cloud");
    /* String driver = "com.mysql.jdbc.Driver";
     String connection = "jdbc:mysql://localhost:3306/client_db1";
     String user = "root";
