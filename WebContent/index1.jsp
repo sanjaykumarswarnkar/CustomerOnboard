@@ -75,8 +75,8 @@
                     </tr>
                     
                     <tr>
-                       <td><font color=tan size=4 face="Verdana">Login as</font></td>
-                       <!-- <td><select >
+                      <!-- <td><font color=tan size=4 face="Verdana">Login as</font></td>
+                        <td><select >
 <option value="Admin">Admin</option>
 <option value="User">User</option></select></td>-->
                     </tr>  
