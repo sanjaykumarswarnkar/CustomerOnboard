@@ -79,7 +79,10 @@
                       <td><font color=tan size=4 face="Verdana">Login as</font></td>
                         <td><select >
 <option value="Admin">Admin</option>
-<option value="User">User</option></select></td>
+<option value="User">User</option></select>
+
+<option value="User">Group</option></select>
+</td>
                     </tr>   -->
                  
                      
