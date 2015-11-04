@@ -81,7 +81,7 @@
 <option value="Admin">Admin</option>
 <option value="User">User</option></select>
 
-<option value="User">Group</option></select>
+<option value="User">GroupID</option></select>
 </td>
                     </tr>   -->
                  
