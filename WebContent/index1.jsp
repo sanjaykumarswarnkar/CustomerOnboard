@@ -88,11 +88,11 @@
                      
                      
                      
-                   <tr>
+                 <!--  <tr>
                         
                         <td><input type="reset" value="Reset" /></td>
                         <td><input type="submit" value="Login as" /></td>
-                    </tr> 
+                    </tr> -->
                     <tr>
                         <td colspan="2"><a href="index.jsp">Register Now</a></td>
                     </tr>
