@@ -118,7 +118,7 @@ return false;
 </tr>  <tr><td><font color=tan size=4 face="Verdana">USER NAME :    </font>  </td><td>  <input type="text" name="Uname"  onclick="this.value=''"/></td></tr>
 </tr>  <tr><td><font color=tan size=4 face="Verdana">LAST-NAME :    </font>  </td><td>  <input type="text" name="Uname"  onclick="this.value=''"/></td></tr>
 <tr><td><font color=tan size=4 face="Verdana">Phone Number :    </font>  </td><td>  <input type="text" name="Uname"  onclick="this.value=''"/></td></tr>
- <tr><td><font color=tan size=4 face="Verdana">EMAIL :     </font> </td><td>  <input type="text" name="Email"  onclick="this.value=''"/></td></tr>
+ <!-- <tr><td><font color=tan size=4 face="Verdana">EMAIL :     </font> </td><td>  <input type="text" name="Email"  onclick="this.value=''"/></td></tr>-->
 <tr><td><font color=tan size=4 face="Verdana">COMPANY :    </font></td><td>  <input type="text" name="Company"  onclick="this.value=''"/></td></tr>
 <tr><td><font color=tan size=4 face="Verdana">PASSWORD :   </font></td><td>  <input type="password" name="Password"   onclick="this.value=''"/></td></tr>
 <!-- <tr><td><font color=tan size=4 face="Verdana">CREATION DATE :</font></td><td><input type="text" name="CreationDate"  onclick="this.value=''"/></td></tr> -->
